@@ -3,13 +3,16 @@ export default {
   content: [  "./index.html",
     "./src/**/*.{js,ts,jsx,tsx}",],
   theme: {
-    colors: {
-      logoColor: "#3F9142",
-      focusColor: "#357937",
+    extend: {
+      colors: {
+      "logoColor": "#3F9142",
+      "focusColor": "#357937",
       
     },
-    extend: {
-
+       spacing: {
+        '8xl': '94rem',
+        '9xl': '128rem',
+      },
     },
   },
   plugins: [],

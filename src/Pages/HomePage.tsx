@@ -1,9 +1,11 @@
 import Navbar from "../components/Navbar";
 
 function HomePage() {
-    return <div className="max-w-7xl mx-auto h-screen ">
+    return (
+      <div className="max-w-8xl mx-auto h-screen ">
         <Navbar></Navbar>
-    </div>
+      </div>
+    );
 }
 
 export default HomePage;
